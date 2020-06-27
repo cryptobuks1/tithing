@@ -1,0 +1,137 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 13, 2019, 10:43:54 AM
+    Author     : Ernest Owusu Mensah
+
+
+*/
+
+button{
+    background:inherit;
+    border:none;
+}
+
+button:focus{
+outline: none;
+
+}
+.dropdown button{
+	padding-top:5px;
+	padding-bottom: 5px;
+}
+.dropdown button:hover{
+	background: #4949491E;
+	border-radius: 100%;
+	color:#ff0000 !important;
+	
+
+	
+}
+.border-right-hupgo{
+border-right: 1px solid #ff0000 !important;
+}
+
+.all-border-hupgo{
+	border: 1px solid #ff0000 !important;
+}
+
+
+
+
+.navbar-red .navbar-brand {
+  color: #404040;
+}
+
+.navbar-red .navbar-brand:hover, .navbar-red .navbar-brand:focus {
+  color: #ff0000 !important;
+}
+
+.navbar-red .navbar-nav .nav-btn{
+  color: #404040;
+}
+
+.navbar-red .navbar-nav .nav-btn:hover, .navbar-red .navbar-nav .nav-btn:focus {
+  color: rgba(255, 0, 0, 1.) !important;
+}
+
+.navbar-red .navbar-nav .nav-btn .disabled {
+  color: #404040 !important;
+}
+
+.navbar-red .navbar-nav .show > .nav-btn,
+.navbar-red .navbar-nav .active > .nav-btn,
+.navbar-red .navbar-nav .nav-link.show,
+.navbar-red .navbar-nav .nav-link.active {
+  color: #404040 !important;
+}
+
+.navbar-red .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-red .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-red .navbar-text {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-red .navbar-text .nav-btn{
+  color: #404040 !important;
+}
+
+.navbar-red .navbar-text .nav-btn:hover, .navbar-red .navbar-text .nav-btn:focus {
+  color: #ff0000 !important;
+}
+
+
+.bg-red-white {
+  background-color: #fff !important;
+}
+
+.nav-btn .bg-red-white:hover, .nav-btn .bg-red-white:focus,
+.nav-btn .bg-red-white:hover,
+.nav-btn .bg-red-white:focus {
+  background-color: #ff0000 !important;
+}
+
+
+
+/*
+Navigation bar gradient 
+
+*/
+
+.navigation_gradient{
+  background-color: #F2F2F2;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #f2f2f2), to(#ff0000));
+  background-image: linear-gradient(179deg, #F2F2F2 60%, #ff0000 100%);
+}
+
+
+
+/*
+
+Adding images to left and right of input text
+*/
+.inner-addon{
+    position:relative;
+    font-size: 15px;
+    color:red;
+}
+
+.inner-addon .fa{
+    position: absolute;
+    padding:15px;
+    pointer-events: none;
+}
+.left-addon .fa{left: 0px; }
+.right-addon .fa{right: 0px;}
+.left-addon input{padding-left: 30px;}
+.right-addon input{padding-right: 30px; font-size: 23px;}
