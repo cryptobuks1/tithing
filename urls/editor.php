@@ -207,7 +207,7 @@ e.preventDefault();
    var DbTransType = clickedID[0];
    alertify.confirm('Are you sure to Delete this Tranaction? You can\'t undo this!!!', function(){ 
         var myData = 'recordToDel='+ DbNumberID+'&transType='+DbTransType; //build a post data structure
-alert(myData);
+//alert(myData);
 $('#item_'+DbNumberID).addClass( "btn-danger" ); //change background of this element by adding class
 		$(this).hide(); //hide currently clicked delete button
 		 
