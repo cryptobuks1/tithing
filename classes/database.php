@@ -1067,6 +1067,7 @@ echo "</table>";
         $num_rows = mysqli_num_rows($result);
     
      
+     if($num_rows >= 1){
             $row = mysqli_fetch_row($result);
             $id = $row[0];
             $first_name = $row[1]; //getting the first name from the database
@@ -1110,6 +1111,24 @@ echo "</table>";
               </div>
             </div>
           </div>";
+     }else{ 
+        echo "<div class=\"col-xl-12 col-md-12 mb-12\">
+        <div class=\"card border-left-primary shadow h-100 py-2\">
+          <div class=\"card-body\">
+            <div class=\"row no-gutters align-items-center\">
+              <div class=\"col mr-2\">
+              
+                <div class=\"h5 font-weight-bold text-danger text-uppercase mb-0\">User Transactions are empty</div>
+               
+              </div>
+              <div class=\"col-auto\">
+                <i class=\"fas fa-calendar fas fa-user fws text-gray-300\"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>";
+     }
     }
 
     function getProjectDetails(){
